@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #282c36;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: gray;
+}
